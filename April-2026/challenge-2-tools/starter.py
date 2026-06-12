@@ -40,7 +40,6 @@ def weather(city: str) -> str:
         return res.json()
     except:
         return f"The weather in {city} is sunny, 28°C"
-    pass
 
 
 # ============================================================
